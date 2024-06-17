@@ -1,20 +1,19 @@
 body {
   transition: background 0.5s ease;
   background-repeat: no-repeat;
-  background-size:contain;
-
+  background-size: contain;
 }
 
 .javascript {
-  background-image: url('path/to/javascript.jpg');
+  background-image: url("path/to/javascript.jpg");
 }
 
 .java {
-  background-image: url('path/to/java.jpg');
+  background-image: url("path/to/java.jpg");
 }
 
 .python {
-  background-image: url('path/to/python.jpg');
+  background-image: url("path/to/python.jpg");
 }
 
 .container {
@@ -40,9 +39,11 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
-h1{
-  color:red;
+
+h1 {
+  color: red;
 }
-p{
-  color:red;
-}
+
+p {
+  color: red;
+}/*# sourceMappingURL=codeGen.css.map */
