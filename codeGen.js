@@ -16,7 +16,7 @@ function generateCode() {
   };
 
   const backgroundImage = languageBackgrounds[language] || 'default.jpg';
-  $('body').css('background-image', `url('/images/${backgroundImage}')`);
+  $('body').css('background-image', `url('images/${backgroundImage}')`);
 
   if (language === 'javascript') {
     code = generateJavaScriptCode(codeType);
