@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Generator</title>
+</head>
+<body>
+  <div class="container">
+      <h1>Code Generator</h1>
+      <label for="language">Choose a programming language:</label>
+      <select id="language">
+          <option value="javascript">JavaScript</option>
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+      </select>
+      <br>
+      <label for="codeType">Choose a code type:</label>
+      <select id="codeType">
+          <option value="function">Function</option>
+          <option value="eventHandler">Event Handler</option>
+          <option value="ifStatement">If Statement</option>
+          <option value="forLoop">For Loop</option>
+          <option value="whileLoop">While Loop</option>
+      </select>
+      <button id="generateButton">Generate Code</button>
+      <div class="output">
+          <pre id="codeOutput"></pre>
+      </div>
+  </div>
+  <script src="codeGen.js"></script>
+</body>
+</html>
